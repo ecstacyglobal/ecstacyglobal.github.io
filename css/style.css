@@ -303,6 +303,8 @@ footer.site a:hover{ color:var(--gold); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px){
+  .wrap{ padding:0 20px; }
+  .site-nav{ padding:16px 4px; }
   .grid-articles{ grid-template-columns:1fr; }
   .feature-row{ grid-template-columns:1fr; }
   .footer-grid{ grid-template-columns:1fr; }
